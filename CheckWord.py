@@ -5,6 +5,7 @@ def get_word_definition(word):
     response = requests.get(url)
     if response.status_code == 404:
         print("Palabra no encontrada")
-        return None
+        return False
     else:
         print("Palabra encontrada")
+        return True
