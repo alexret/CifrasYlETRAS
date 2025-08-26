@@ -3,11 +3,14 @@ import sys
 from PySide6.QtWidgets import (
     QApplication, QLabel, QLineEdit, QVBoxLayout, QWidget, QPushButton, QMessageBox
 )
+
+from entity.Player import Player
 from forms.VentanaLetras import VentanaLetras
 
 consonantes = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n',
                'ñ', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
 vocales = ['a', 'e', 'i', 'o', 'u']
+
 
 class VentanaInicial(QWidget):
     def __init__(self):
