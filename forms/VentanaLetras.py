@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QWidget, QLabel, QPushButton, QLineEdit, QVBoxLayout
 
-import CheckWord
+from functions import CheckWord
 
 
 class VentanaLetras(QWidget):

@@ -3,8 +3,7 @@ import sys
 from PySide6.QtWidgets import (
     QApplication, QLabel, QLineEdit, QVBoxLayout, QWidget, QPushButton, QMessageBox
 )
-import CheckWord
-from VentanaLetras import VentanaLetras
+from forms.VentanaLetras import VentanaLetras
 
 consonantes = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n',
                'ñ', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
